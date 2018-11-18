@@ -54,3 +54,21 @@ El resumen de las conclusiones mas importantes a las que se ha llegado en esta f
 - Igualdad de género: Aunque existe un cierto equilibrio en la distribición de género de los empleados de la compañía, a medida que el puesto es mas alto va descendiendo el porcentaje de mujeres. 
 - Porcentaje de Abandono: El porcentaje de abandono se produce en empelados con poca edad (18-23) y con suledos bajos. Los puestos mas afcetados por el abandono son los de administración y tecnicos.
 - Distribución de los ingresos no parece la adecuada ya que hay un grupo de empleados con sueldos muy bajos, mientras que el resto de los empleados de la compañía disfrutan de sueldos altos con incrementos salariales periódicos y elevados.
+
+## 4. Análisis avanzado de datos
+En el notebook TFM3 realizaremos un analisis avanzado de datos en el que se tratarán los siguinetes puntos:
+- Relación edad, ingresos mensuales y grado de abandono.
+- Modelado (Técnica sobremuestreo)
+- Análisis de Varianza (ANOVA)
+Tras el análisis avanzado de datos pudimos obtener las siguinetes conclusiones:
+
+- Analizando la entropía podemos observar que en el caso de los ingresos mensuales la entropía es menor que en el caso de la edad. Por este motivo podemos considerar que el grado de abandono esta mas relacionado con la edad que con los Ingresos mensuales.
+- Tras entrenar el dataset con varios modelos obtenemos que el modelo rbfSVM es el que tiene mayor precisión y recall.
+- Con el análisis de la varianza podemos observar que las variables Años trabajados e Ingresos mensuales son las que mas relacionadas están con el porcentaje de abandono.
+
+## 5. Entornos de desarrollo
+- Lenguaje de programación:  python 3
+- Entono de desarrollo interactivo: IPython Notebook
+- Entorno de desarrollo: google colaboratory
+- Entorno de validación: Maquina virtual facilitada por Kschool
+
